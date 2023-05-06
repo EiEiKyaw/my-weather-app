@@ -1,0 +1,182 @@
+body {
+  font-family: sans-serif;
+}
+
+#header {
+  background-color: rgb(138, 43, 226, 10%);
+}
+
+#header-text {
+  font-size: 2rem;
+  color: blueviolet;
+  font-family: "Roboto Slab", serif;
+}
+
+#header-div {
+  text-align: right;
+  margin: auto 0;
+}
+
+#header-div > .fa-solid {
+  font-size: 1.5rem;
+  color: blueviolet;
+  padding-right: 10px;
+}
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: blueviolet;
+}
+
+#map-btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: rgb(138, 43, 226, 10%);
+}
+
+#map-icon {
+  color: blueviolet;
+  border: #f3e9fc;
+}
+
+#flexSwitchCheckChecked {
+  background-color: blueviolet;
+  border: blueviolet;
+}
+
+#search-row-2 {
+  margin: auto 0;
+}
+
+.btn-primary {
+  background-color: blueviolet;
+  border: blueviolet;
+}
+
+#current-detail {
+  background-color: blueviolet;
+}
+
+.alert {
+  height: 30px;
+  margin: 0;
+  padding: 0;
+  background-color: blueviolet;
+  border: blueviolet;
+  border-radius: 0;
+}
+
+.alert > span {
+  color: #fff;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.alert > i {
+  color: #fff;
+  position: absolute;
+  top: 7px;
+  right: 5px;
+}
+
+.d1-primary,
+.d2-primary,
+.d3-primary {
+  color: #fff;
+}
+
+#current-date,
+#convert-f-degree,
+#convert-c-degree,
+.d1-secondary,
+.d3-secondary {
+  color: #ffdb1f;
+}
+
+#detail-1,
+#detail-2,
+#detail-3 {
+  margin: auto 0;
+}
+
+#detail-2 > p,
+#detail-3 > p {
+  text-align: center;
+}
+
+#detail-2 > p > img {
+  width: 75px;
+}
+
+#detail-3 > p > i {
+  margin: auto 40px;
+}
+
+.d1-title,
+.d2-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.d2-title {
+  text-transform: capitalize;
+}
+
+.d1-subtitle,
+.d2-subtitle {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#d-p {
+  margin-left: -10px;
+  margin-right: 50px;
+}
+
+#d-n {
+  margin-left: -10px;
+}
+
+video {
+  width: 345px;
+  margin-top: 10px;
+}
+
+#table-data {
+  margin: 15px auto;
+  text-align: center;
+}
+
+.weather-data {
+  color: #5a6275;
+}
+
+td > img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#convert-f-degree,
+#convert-c-degree {
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.btn-warning {
+  color: #fff;
+}
+
+.form-switch {
+  margin-left: 60px;
+}
