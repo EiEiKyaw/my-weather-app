@@ -180,3 +180,19 @@ td > img {
 .form-switch {
   margin-left: 60px;
 }
+
+#repo-div {
+  text-align: right;
+  margin-right: 15px;
+}
+
+#github-url {
+  color: blueviolet;
+  font-weight: bold;
+  transition: all 200ms ease-in-out;
+}
+
+#github-url:hover {
+  color: #ffdb1f;
+  cursor: pointer;
+}
